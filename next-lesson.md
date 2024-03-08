@@ -15,3 +15,4 @@
 
 * [Trainingsaufgaben](https://jwinf.de/contest/?filter=open), oben
   rechts logincode von der Liste eingeben
+* [Feldermaler](https://blockly.bwinf.de/feldermaler/)
