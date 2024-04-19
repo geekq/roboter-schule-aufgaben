@@ -30,10 +30,10 @@ def generate_html_from_text_file(name):
         padding: 8px;
         box-sizing: border-box;
         margin-bottom: 20px;
-        margin-left: 30px;
+        margin-left: 14px;
     }
     p, input[type="text"] {
-        font-size: 16px;
+        font-size: 24px;
         font-weight: bold;
         font-family: 'DejaVu Sans Mono', 'Courier New', Courier, monospace;
     }
@@ -69,6 +69,7 @@ document.addEventListener('DOMContentLoaded', function() {
 f"""
 <a href="../typing.html">alle Aufgaben</a>
 <h1>{name}</h1>
+<ol>
 """)
 
     # Process each line in the file
@@ -77,9 +78,9 @@ f"""
         clean_line = line.strip()
         if clean_line:  # Check if line is not empty
             # Add paragraph and input field for each non-empty line
-            html_content += f'<p>{clean_line}</p>\n<input type="text"><br>\n'
+            html_content += f"""<li><p>{clean_line}</p>\n<input type="text" spellcheck="false"><br></li>"""
 
-    html_content += '</body>\n</html>'
+    html_content += '</ol>\n</body>\n</html>'
 
     with open(output_filename, 'w', encoding='utf-8') as output_file:
         output_file.write(html_content)
