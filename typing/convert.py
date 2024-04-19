@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+import sys
 def generate_html_from_text_file(name):
     input_filename = f"{name}.txt"
     output_filename = f"{name}.html"
@@ -85,4 +86,4 @@ f"""
     with open(output_filename, 'w', encoding='utf-8') as output_file:
         output_file.write(html_content)
 
-generate_html_from_text_file('aufgabe1')
+generate_html_from_text_file(sys.argv[1]) # e.g. 'aufgabe1'
