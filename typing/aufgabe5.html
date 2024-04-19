@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>aufgabe5</title>
+<style>
+    body {
+        width: 80%;
+        color: black;
+    }
+    p {
+        /*color: navy;*/
+        margin: 20px;
+        width: 100%;
+    }
+    input[type="text"] {
+        width: 100%;
+        padding: 8px;
+        box-sizing: border-box;
+        margin-bottom: 20px;
+        margin-left: 14px;
+    }
+    p, input[type="text"] {
+        font-size: 24px;
+        font-weight: bold;
+        font-family: 'DejaVu Sans Mono', 'Courier New', Courier, monospace;
+    }
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    console.log('Page fully loaded');
+    var inputs = document.querySelectorAll('input[type="text"]');
+    if (inputs.length > 0) {
+        inputs[0].focus(); // Focus on the first input field
+    }
+});
+
+    // Add any additional JavaScript you want to run at start here
+    document.addEventListener('DOMContentLoaded', function () {
+        const inputs = document.querySelectorAll('input');
+        inputs.forEach((input, index) => {
+            input.addEventListener('keyup', function(event) {
+                if (event.key === 'Enter') {
+                    event.preventDefault(); // Prevent the default form submit on Enter key
+                    if (index < inputs.length - 1) { // Check if it's not the last input field
+                        inputs[index + 1].focus(); // Move focus to the next input field
+                    }
+                }
+            });
+        });
+    });
+</script>
+</head>
+<body>
+
+<a href="../typing.html">alle Aufgaben</a>
+<h1>aufgabe5</h1>
+<ol>
+<li><p>frf juj rgf jul ers ulk irg aul aug dri grö hau gru arg auf</p>
+<input type="text" spellcheck="false"><br></li><li><p>sie sei seid gehe löse alle diese jedes siehe gefiel hiesig</p>
+<input type="text" spellcheck="false"><br></li><li><p>du er her ihr dar auf sehr fuhr daher darauf, er ergriff es</p>
+<input type="text" spellcheck="false"><br></li><li><p>lol lol lol lol lol lol lol</p>
+<input type="text" spellcheck="false"><br></li><li><p>jlj lju jlo olj lol olo l o</p>
+<input type="text" spellcheck="false"><br></li><li><p>olo llo lio oli ohl aro sod</p>
+<input type="text" spellcheck="false"><br></li><li><p>oj ok ko ol lo oh ho ou iou</p>
+<input type="text" spellcheck="false"><br></li><li><p>of fo od do os so ogo or ro</p>
+<input type="text" spellcheck="false"><br></li><li><p>koh loh hol off dor sor rol</p>
+<input type="text" spellcheck="false"><br></li><li><p>los los los also also wieso</p>
+<input type="text" spellcheck="false"><br></li><li><p>fsf sfr fsw wsf sws wsw s w</p>
+<input type="text" spellcheck="false"><br></li><li><p>wss sws sdw sew swr wöl kwu</p>
+<input type="text" spellcheck="false"><br></li><li><p>ws sw wd dw wa aw we ew rwg</p>
+<input type="text" spellcheck="false"><br></li><li><p>wö öw wi iw wu uw wh hw kwl</p>
+<input type="text" spellcheck="false"><br></li><li><p>wal wes wei wra wöh wur wis</p>
+<input type="text" spellcheck="false"><br></li><li><p>was was was wild wild wurde</p>
+<input type="text" spellcheck="false"><br></li><li><p>wer wer wer wie wie wie wir wir wir log log log roh roh roh</p>
+<input type="text" spellcheck="false"><br></li><li><p>wer wie wir log roh wer wie wir log roh wer wie wir log roh</p>
+<input type="text" spellcheck="false"><br></li><li><p>warf warf wird wird soll soll lose lose</p>
+<input type="text" spellcheck="false"><br></li><li><p>warf wird soll lose warf wird soll lose</p>
+<input type="text" spellcheck="false"><br></li><li><p>wahr wahr weil weil will will froh froh wohl wohl oder oder</p>
+<input type="text" spellcheck="false"><br></li><li><p>wahr froh weil wohl will oder wahr froh weil wohl will oder</p>
+<input type="text" spellcheck="false"><br></li><li><p>weder weder wider wider wurde wurde folge folge sorge sorge</p>
+<input type="text" spellcheck="false"><br></li><li><p>weder wider wurde folge sorge weder wider wurde folge sorge</p>
+<input type="text" spellcheck="false"><br></li><li><p>war warf wer werde wir wirke wie wieder</p>
+<input type="text" spellcheck="false"><br></li><li><p>log flog roh frohe los loser sog goldig</p>
+<input type="text" spellcheck="false"><br></li><li><p>sogar solid sowie wieso woher sowohl wohlig wiewohl wohlauf</p>
+<input type="text" spellcheck="false"><br></li><li><p>arglos reglos sorglos hilflos wider widerwillig wie sowieso</p>
+<input type="text" spellcheck="false"><br></li><li><p>er fuhr l. oder r., löse das so od. so, u. a. war sie froh,</p>
+<input type="text" spellcheck="false"><br></li><li><p>es wurde wieder so, sie war so hilflos, arglos fuhr er weg,</p>
+<input type="text" spellcheck="false"><br></li><li><p>er lief freiwillig, widerwillig log er, wiederhole es hier,</p>
+<input type="text" spellcheck="false"><br></li></ol>
+</body>
+</html>

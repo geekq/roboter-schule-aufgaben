@@ -2,7 +2,7 @@ f f f f ff ff ff ff j j j j jj jj jj jj f j f j ff jj ff jj
 f d f d fd fd fd fd j k j k jk jk jk jk f d j k fd jk fd jk
 
 f d f s fd fs fd fs j k j l jk jl jk jl f s j l fs jl fs jl
-f s f a fs fa fs fa j 1 j ö jl jö jl jö f a j ö fa jö fa jö
+f s f a fs fa fs fa j l j ö jl jö jl jö f a j ö fa jö fa jö
 
 fff fdf fdd dff dfd jjj jkj jkk kjj kjk fjf jfj fkf jdj dkd
 fdf fds fsf fsa faf jkj jkl jlj jlö jöj flf jsj föf jaj aöa

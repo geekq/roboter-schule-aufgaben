@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>aufgabe4</title>
+<style>
+    body {
+        width: 80%;
+        color: black;
+    }
+    p {
+        /*color: navy;*/
+        margin: 20px;
+        width: 100%;
+    }
+    input[type="text"] {
+        width: 100%;
+        padding: 8px;
+        box-sizing: border-box;
+        margin-bottom: 20px;
+        margin-left: 14px;
+    }
+    p, input[type="text"] {
+        font-size: 24px;
+        font-weight: bold;
+        font-family: 'DejaVu Sans Mono', 'Courier New', Courier, monospace;
+    }
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    console.log('Page fully loaded');
+    var inputs = document.querySelectorAll('input[type="text"]');
+    if (inputs.length > 0) {
+        inputs[0].focus(); // Focus on the first input field
+    }
+});
+
+    // Add any additional JavaScript you want to run at start here
+    document.addEventListener('DOMContentLoaded', function () {
+        const inputs = document.querySelectorAll('input');
+        inputs.forEach((input, index) => {
+            input.addEventListener('keyup', function(event) {
+                if (event.key === 'Enter') {
+                    event.preventDefault(); // Prevent the default form submit on Enter key
+                    if (index < inputs.length - 1) { // Check if it's not the last input field
+                        inputs[index + 1].focus(); // Move focus to the next input field
+                    }
+                }
+            });
+        });
+    });
+</script>
+</head>
+<body>
+
+<a href="../typing.html">alle Aufgaben</a>
+<h1>aufgabe4</h1>
+<ol>
+<li><p>ded kik fed hik sef kih geh gif ige eif ieg hel kle öde sei</p>
+<input type="text" spellcheck="false"><br></li><li><p>ja da öd das all als fad lad lag sag aha sah kahl fahl half</p>
+<input type="text" spellcheck="false"><br></li><li><p>sie sei dies seid fiel feil eilig hiesig, sie las es leise,</p>
+<input type="text" spellcheck="false"><br></li><li><p>fdf fde edf dfr frf rfr f r  jkj jki ikj kju juj uju j u</p>
+<input type="text" spellcheck="false"><br></li><li><p>frg rfg gre dra ers irl krö  jhu hju uli uhl kuj kus sgu</p>
+<input type="text" spellcheck="false"><br></li><li><p>fr rf dr rs rgr ra ar re er  jU Uj ku uk uhu ul lu uö öu</p>
+<input type="text" spellcheck="false"><br></li><li><p>rj rk kr rl rö ör rhr ri ir  uf fu ud du us su ug gu aue</p>
+<input type="text" spellcheck="false"><br></li><li><p>fra fre raf ref för fir rif  jUl kul klu hul fuh sug gui</p>
+<input type="text" spellcheck="false"><br></li><li><p>dar dar darf darf frei frei  lau lau lau flau flau laufe</p>
+<input type="text" spellcheck="false"><br></li><li><p>rar rar rar dar dar dar gar gar gar auf auf auf aus aus aus</p>
+<input type="text" spellcheck="false"><br></li><li><p>rar dar gar auf aus rar dar gar auf aus rar dar gar auf aus</p>
+<input type="text" spellcheck="false"><br></li><li><p>der der der dir dir dir arg arg arg lud lud lud ruh ruh ruh</p>
+<input type="text" spellcheck="false"><br></li><li><p>der dir arg lud ruh der dir arg lud ruh der dir arg lud ruh</p>
+<input type="text" spellcheck="false"><br></li><li><p>frei frei rief rief darf darf klug klug faul faul flau flau</p>
+<input type="text" spellcheck="false"><br></li><li><p>frei rief darf klug faul flau frei rief darf klug faul flau</p>
+<input type="text" spellcheck="false"><br></li><li><p>rufe rufe ruhe ruhe rauh rauh fuhr fuhr euer euer eure eure</p>
+<input type="text" spellcheck="false"><br></li><li><p>rufe ruhe rauh fuhr euer eure rufe ruhe rauh fuhr euer eure</p>
+<input type="text" spellcheck="false"><br></li><li><p>frage frage drehe drehe grell grell ruhig ruhig ulkig ulkig</p>
+<input type="text" spellcheck="false"><br></li><li><p>frage drehe grell ruhig ulkig frage drehe grell ruhig ulkig</p>
+<input type="text" spellcheck="false"><br></li><li><p>du er der dir ihr aus auf her ihre hier sehr drei darf rief</p>
+<input type="text" spellcheck="false"><br></li><li><p>du ihre er hier der sehr dir drei ihr darf aus rief auf her</p>
+<input type="text" spellcheck="false"><br></li><li><p>der jeder leider hager reger daher jeher hierher hierherauf</p>
+<input type="text" spellcheck="false"><br></li><li><p>auf kaufe laufe kraus rauhe sauer freue feurig heurig eurer</p>
+<input type="text" spellcheck="false"><br></li><li><p>darauf herauf hierauf hellauf daraus heraus hieraus jahraus</p>
+<input type="text" spellcheck="false"><br></li><li><p>ruhig rudere eure eurer fuhr erfuhr euer heuer sauer rauher</p>
+<input type="text" spellcheck="false"><br></li><li><p>er fuhr sehr ruhig, er lief sehr leise, es gefiel ihr sehr,</p>
+<input type="text" spellcheck="false"><br></li><li><p>rudere sie hierher, kaufe ihr das hier, hier gefiel es ihr,</p>
+<input type="text" spellcheck="false"><br></li><li><p>hier erfuhr sie es, leider darf er das, erledige das ruhig,</p>
+<input type="text" spellcheck="false"><br></li></ol>
+</body>
+</html>

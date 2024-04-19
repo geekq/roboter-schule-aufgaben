@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>aufgabe-rechte-hand</title>
+<style>
+    body {
+        width: 80%;
+        color: black;
+    }
+    p {
+        /*color: navy;*/
+        margin: 20px;
+        width: 100%;
+    }
+    input[type="text"] {
+        width: 100%;
+        padding: 8px;
+        box-sizing: border-box;
+        margin-bottom: 20px;
+        margin-left: 14px;
+    }
+    p, input[type="text"] {
+        font-size: 24px;
+        font-weight: bold;
+        font-family: 'DejaVu Sans Mono', 'Courier New', Courier, monospace;
+    }
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    console.log('Page fully loaded');
+    var inputs = document.querySelectorAll('input[type="text"]');
+    if (inputs.length > 0) {
+        inputs[0].focus(); // Focus on the first input field
+    }
+});
+
+    // Add any additional JavaScript you want to run at start here
+    document.addEventListener('DOMContentLoaded', function () {
+        const inputs = document.querySelectorAll('input');
+        inputs.forEach((input, index) => {
+            input.addEventListener('keyup', function(event) {
+                if (event.key === 'Enter') {
+                    event.preventDefault(); // Prevent the default form submit on Enter key
+                    if (index < inputs.length - 1) { // Check if it's not the last input field
+                        inputs[index + 1].focus(); // Move focus to the next input field
+                    }
+                }
+            });
+        });
+    });
+</script>
+</head>
+<body>
+
+<a href="../typing.html">alle Aufgaben</a>
+<h1>aufgabe-rechte-hand</h1>
+<ol>
+<li><p>j j j j jj jj jj jj jj</p>
+<input type="text" spellcheck="false"><br></li><li><p>j k j k jk jk jk jk jk</p>
+<input type="text" spellcheck="false"><br></li><li><p>j k j l jk jl jk jl jl</p>
+<input type="text" spellcheck="false"><br></li><li><p>j l j ö jl jö jl jö jö</p>
+<input type="text" spellcheck="false"><br></li><li><p>jjj jkj jkk kjj kjk jkj jkl jlj jlö jöj</p>
+<input type="text" spellcheck="false"><br></li><li><p>jö jö kö kö lö lö ök ök öl öl kl kl lk lk</p>
+<input type="text" spellcheck="false"><br></li><li><p>köl köl köl klö klö klö lö lö</p>
+<input type="text" spellcheck="false"><br></li><li><p>jjj jkj kjh hjk jhj hjh j h hjö jöh klö löh höl</p>
+<input type="text" spellcheck="false"><br></li><li><p>jhj jh hj kh hk lh hl hö öh hök köh löh höl öh hö öh</p>
+<input type="text" spellcheck="false"><br></li><li><p>jhj jöh hö hl höl</p>
+<input type="text" spellcheck="false"><br></li><li><p>jkj kjk jki ikj kik iki k i</p>
+<input type="text" spellcheck="false"><br></li><li><p>iki kii kli ilk ihk</p>
+<input type="text" spellcheck="false"><br></li><li><p>ji ij ik ki il li iöi ih hi</p>
+<input type="text" spellcheck="false"><br></li><li><p>öli öli hil hil lil lil ili ili ili ili</p>
+<input type="text" spellcheck="false"><br></li><li><p>jkj jki ikj kju juj uju j u</p>
+<input type="text" spellcheck="false"><br></li><li><p>jhu hju uli uhl kuj ku</p>
+<input type="text" spellcheck="false"><br></li><li><p>jU Uj ku uk uhu ul lu uö öu</p>
+<input type="text" spellcheck="false"><br></li><li><p>jUl kul klu hul uh</p>
+<input type="text" spellcheck="false"><br></li><li><p>ulki ulki ulki ulki ulki ulki ulki ulki ulki ulki</p>
+<input type="text" spellcheck="false"><br></li><li><p>uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh</p>
+<input type="text" spellcheck="false"><br></li><li><p>uhi, juj jul ulk</p>
+<input type="text" spellcheck="false"><br></li><li><p>lol lol lol lol lol lol lol</p>
+<input type="text" spellcheck="false"><br></li><li><p>jlj lju jlo olj lol olo l o</p>
+<input type="text" spellcheck="false"><br></li><li><p>olo llo lio oli ohl</p>
+<input type="text" spellcheck="false"><br></li><li><p>oj ok ko ol lo oh ho ou iou</p>
+<input type="text" spellcheck="false"><br></li><li><p>koh loh hol</p>
+<input type="text" spellcheck="false"><br></li></ol>
+</body>
+</html>
