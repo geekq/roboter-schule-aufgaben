@@ -1,0 +1,33 @@
+
+1 f f f f ff ff ff ff j j j j jj jj jj jj f j f j ff jj ff jj
+2 f d f d fd fd fd fd j k j k jk jk jk jk f d j k fd jk fd jk
+
+3 f d f s fd fs fd fs j k j l jk jl jk jl f s j l fs jl fs jl
+4 f s f a fs fa fs fa j 1 j ö jl jö jl jö f a j ö fa jö fa jö
+
+5 fff fdf fdd dff dfd jjj jkj jkk kjj kjk fjf jfj fkf jdj dkd
+6 fdf fds fsf fsa faf jkj jkl jlj jlö jöj flf jsj föf jaj aöa
+
+
+7 fa fa da da sa sa af af ad ad jö jö kö kö lö lö ök ök öl öl
+8 fs fs ds ds sf sf sd sd kl kl lk lk fl fl lf lf ks ks sk sk
+
+ 9 fas fas fas fal fal fal sal sal sal jal jal jal kal kal kal
+10 köl köl köl klö klö klö löf löf löf lös lös lös öff öff öff
+
+
+11 ja ja ja ja da da da da ad ad ad ad as as as as öd öd öd öd
+12 ja da ad as öd ja da ad as öd ja da ad as öd ja da ad as öd
+
+13 fad fad fad fad fad lad lad lad lad lad las las las las las
+14 fad fad fad lad lad lad las las las fad fad lad lad las las
+
+15 las las las las las als als als als als all all all all all
+16 las als all las als all las als all las als all las als all
+
+17 all all all all all das das das das das lös lös lös lös lös
+18 all das lös all das lös all das lös all das lös all das lös
+
+
+19 fa fas fal da das dal sa saf sal kö köl kös klö lös ölf öff
+20 ja da das ad fad lad as das las la lad las al als all falls

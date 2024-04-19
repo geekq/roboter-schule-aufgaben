@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>aufgabe1</title>
+<style>
+    body {
+        width: 80%;
+        color: black;
+    }
+    p {
+        /*color: navy;*/
+        margin: 20px;
+        width: 100%;
+    }
+    input[type="text"] {
+        width: 100%;
+        padding: 8px;
+        box-sizing: border-box;
+        margin-bottom: 20px;
+        margin-left: 30px;
+    }
+    p, input[type="text"] {
+        font-size: 16px;
+        font-weight: bold;
+        font-family: 'DejaVu Sans Mono', 'Courier New', Courier, monospace;
+    }
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    console.log('Page fully loaded');
+    var inputs = document.querySelectorAll('input[type="text"]');
+    if (inputs.length > 0) {
+        inputs[0].focus(); // Focus on the first input field
+    }
+});
+
+    // Add any additional JavaScript you want to run at start here
+    document.addEventListener('DOMContentLoaded', function () {
+        const inputs = document.querySelectorAll('input');
+        inputs.forEach((input, index) => {
+            input.addEventListener('keyup', function(event) {
+                if (event.key === 'Enter') {
+                    event.preventDefault(); // Prevent the default form submit on Enter key
+                    if (index < inputs.length - 1) { // Check if it's not the last input field
+                        inputs[index + 1].focus(); // Move focus to the next input field
+                    }
+                }
+            });
+        });
+    });
+</script>
+</head>
+<body>
+
+<a href="../typing.html">alle Aufgaben</a>
+<h1>aufgabe1</h1>
+<p>1 f f f f ff ff ff ff j j j j jj jj jj jj f j f j ff jj ff jj</p>
+<input type="text"><br>
+<p>2 f d f d fd fd fd fd j k j k jk jk jk jk f d j k fd jk fd jk</p>
+<input type="text"><br>
+<p>3 f d f s fd fs fd fs j k j l jk jl jk jl f s j l fs jl fs jl</p>
+<input type="text"><br>
+<p>4 f s f a fs fa fs fa j 1 j ö jl jö jl jö f a j ö fa jö fa jö</p>
+<input type="text"><br>
+<p>5 fff fdf fdd dff dfd jjj jkj jkk kjj kjk fjf jfj fkf jdj dkd</p>
+<input type="text"><br>
+<p>6 fdf fds fsf fsa faf jkj jkl jlj jlö jöj flf jsj föf jaj aöa</p>
+<input type="text"><br>
+<p>7 fa fa da da sa sa af af ad ad jö jö kö kö lö lö ök ök öl öl</p>
+<input type="text"><br>
+<p>8 fs fs ds ds sf sf sd sd kl kl lk lk fl fl lf lf ks ks sk sk</p>
+<input type="text"><br>
+<p>9 fas fas fas fal fal fal sal sal sal jal jal jal kal kal kal</p>
+<input type="text"><br>
+<p>10 köl köl köl klö klö klö löf löf löf lös lös lös öff öff öff</p>
+<input type="text"><br>
+<p>11 ja ja ja ja da da da da ad ad ad ad as as as as öd öd öd öd</p>
+<input type="text"><br>
+<p>12 ja da ad as öd ja da ad as öd ja da ad as öd ja da ad as öd</p>
+<input type="text"><br>
+<p>13 fad fad fad fad fad lad lad lad lad lad las las las las las</p>
+<input type="text"><br>
+<p>14 fad fad fad lad lad lad las las las fad fad lad lad las las</p>
+<input type="text"><br>
+<p>15 las las las las las als als als als als all all all all all</p>
+<input type="text"><br>
+<p>16 las als all las als all las als all las als all las als all</p>
+<input type="text"><br>
+<p>17 all all all all all das das das das das lös lös lös lös lös</p>
+<input type="text"><br>
+<p>18 all das lös all das lös all das lös all das lös all das lös</p>
+<input type="text"><br>
+<p>19 fa fas fal da das dal sa saf sal kö köl kös klö lös ölf öff</p>
+<input type="text"><br>
+<p>20 ja da das ad fad lad as das las la lad las al als all falls</p>
+<input type="text"><br>
+</body>
+</html>
