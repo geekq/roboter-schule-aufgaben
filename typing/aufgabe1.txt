@@ -1,3 +1,5 @@
+# Linke finger: `a' `s' `d' `f' , rechte finger: `j' `k' `l' `ö'
+
 f f f f ff ff ff ff j j j j jj jj jj jj f j f j ff jj ff jj
 f d f d fd fd fd fd j k j k jk jk jk jk f d j k fd jk fd jk
 
@@ -14,6 +16,7 @@ fs fs ds ds sf sf sd sd kl kl lk lk fl fl lf lf ks ks sk sk
 fas fas fas fal fal fal sal sal sal jal jal jal kal kal kal
 köl köl köl klö klö klö löf löf löf lös lös lös öff öff öff
 
+# Übungswörter
 
 ja ja ja ja da da da da ad ad ad ad as as as as öd öd öd öd
 ja da ad as öd ja da ad as öd ja da ad as öd ja da ad as öd
@@ -27,6 +30,7 @@ las als all las als all las als all las als all las als all
 all all all all all das das das das das lös lös lös lös lös
 all das lös all das lös all das lös all das lös all das lös
 
+# Zur Sicherheit
 
 fa fas fal da das dal sa saf sal kö köl kös klö lös ölf öff
 ja da das ad fad lad as das las la lad las al als all falls
