@@ -10,21 +10,31 @@
         color: black;
     }
     p {
-        /*color: navy;*/
-        margin: 20px;
+        margin-left: 7px;
+        margin-bottom: 3px;
         width: 100%;
     }
     input[type="text"] {
         width: 100%;
         padding: 8px;
         box-sizing: border-box;
-        margin-bottom: 20px;
-        margin-left: 14px;
+        margin-bottom: 10px;
+        margin-left: 0px;
     }
-    p, input[type="text"] {
+    p, input[type="text"], div.note .boxed {
         font-size: 24px;
         font-weight: bold;
         font-family: 'DejaVu Sans Mono', 'Courier New', Courier, monospace;
+    }
+    div.note {
+        color: purple;
+        font-size: 30px;
+        margin-top: 20px;
+    }
+    div.note .boxed {
+        border: 2px solid purple;
+        padding-left: 5px;
+        padding-right: 5px;
     }
 </style>
 
@@ -57,31 +67,56 @@ document.addEventListener('DOMContentLoaded', function() {
 
 <a href="../typing.html">alle Aufgaben</a>
 <h1>aufgabe3</h1>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/QWERTZ-10Finger-Layout.svg/2560px-QWERTZ-10Finger-Layout.svg.png" alt="Tasten Zuordnung" width="100%">
 <ol>
-<li><p>fgf jhj gaf jöh gla haf gal höf agd ahl sal höl fah lag sah</p>
-<input type="text" spellcheck="false"><br></li><li><p>fad lad las lös all als falls fad lad las lös all als falls</p>
-<input type="text" spellcheck="false"><br></li><li><p>ja da öd las lös sah aha sag fahl half kahl klag das lag da</p>
-<input type="text" spellcheck="false"><br></li><li><p>fdf dfd fde edf ded ede d e  jkj kjk jki ikj kik iki k i</p>
-<input type="text" spellcheck="false"><br></li><li><p>dee edd dse efa gse els jek  iki kii kli ilk ihk idg igs</p>
-<input type="text" spellcheck="false"><br></li><li><p>ef fe ed de es se eae eg ge  ji ij ik ki il li iöi ih hi</p>
-<input type="text" spellcheck="false"><br></li><li><p>ej je ek ke el le eöe eh he  if fi id di is si iai ig gi</p>
-<input type="text" spellcheck="false"><br></li><li><p>fes ges des ses fel del sel  jil hil kil lii kig lig hig</p>
-<input type="text" spellcheck="false"><br></li><li><p>öde öde öde edel edel jedes  his his his lila lila dalli</p>
-<input type="text" spellcheck="false"><br></li><li><p>öde öde öde die die die elf elf elf sie sie sie ehe ehe ehe</p>
-<input type="text" spellcheck="false"><br></li><li><p>öde die elf sie ehe öde die elf sie ehe öde die elf sie ehe</p>
-<input type="text" spellcheck="false"><br></li><li><p>fade fade jede jede alle alle ölig ölig hilf hilf lila lila</p>
-<input type="text" spellcheck="false"><br></li><li><p>fade jede alle ölig hilf lila fade jede alle ölig hilf lila</p>
-<input type="text" spellcheck="false"><br></li><li><p>feil feil seid seid heil heil lief lief dies dies lieh lieh</p>
-<input type="text" spellcheck="false"><br></li><li><p>feil lief seid dies heil lieh feil lief seid dies heil lieh</p>
-<input type="text" spellcheck="false"><br></li><li><p>jedes jedes fasse fasse klage klage leise leise liege liege</p>
-<input type="text" spellcheck="false"><br></li><li><p>jedes fasse klage leise liege jedes fasse klage leise liege</p>
-<input type="text" spellcheck="false"><br></li><li><p>da ja als falls es des da das lege alle alles sei sie siehe</p>
-<input type="text" spellcheck="false"><br></li><li><p>die dies diese dieses je jede jedes sei seid seidig seidige</p>
-<input type="text" spellcheck="false"><br></li><li><p>fege sage gehe jage lege klage feige gedieh gefiel gesellig</p>
-<input type="text" spellcheck="false"><br></li><li><p>selig eilig eisig seifig heilig leidig hiesig seifig felsig</p>
-<input type="text" spellcheck="false"><br></li><li><p>seid leise, sie las das, es gefiel, sei fidel, da lief sie,</p>
-<input type="text" spellcheck="false"><br></li><li><p>lies alles, das sah sie, fasse das, löse dies, lasse es da,</p>
-<input type="text" spellcheck="false"><br></li><li><p>gehe eilig, lies das da, es gedieh, seid edel, sie lieh es,</p>
-<input type="text" spellcheck="false"><br></li></ol>
+<div class="note"> Wiederholung</div><li><p>fgf jhj gaf jöh gla haf gal höf agd ahl sal höl fah lag sah</p>
+<input type="text" spellcheck="false"><br></li>
+<li><p>fad lad las lös all als falls fad lad las lös all als falls</p>
+<input type="text" spellcheck="false"><br></li>
+<li><p>ja da öd las lös sah aha sag fahl half kahl klag das lag da</p>
+<input type="text" spellcheck="false"><br></li>
+<div class="note"> Buchstaben <span class='boxed'>e</span> und <span class='boxed'>i</span> und das Komma <span class='boxed'>,</span> Benutze dafür die Mittelfinger</div><li><p>fdf dfd fde edf ded ede d e  jkj kjk jki ikj kik iki k i</p>
+<input type="text" spellcheck="false"><br></li>
+<li><p>dee edd dse efa gse els jek  iki kii kli ilk ihk idg igs</p>
+<input type="text" spellcheck="false"><br></li>
+<li><p>ef fe ed de es se eae eg ge  ji ij ik ki il li iöi ih hi</p>
+<input type="text" spellcheck="false"><br></li>
+<li><p>ej je ek ke el le eöe eh he  if fi id di is si iai ig gi</p>
+<input type="text" spellcheck="false"><br></li>
+<li><p>fes ges des ses fel del sel  jil hil kil lii kig lig hig</p>
+<input type="text" spellcheck="false"><br></li>
+<li><p>öde öde öde edel edel jedes  his his his lila lila dalli</p>
+<input type="text" spellcheck="false"><br></li>
+<div class="note"> Übungswörter</div><li><p>öde öde öde die die die elf elf elf sie sie sie ehe ehe ehe</p>
+<input type="text" spellcheck="false"><br></li>
+<li><p>öde die elf sie ehe öde die elf sie ehe öde die elf sie ehe</p>
+<input type="text" spellcheck="false"><br></li>
+<li><p>fade fade jede jede alle alle ölig ölig hilf hilf lila lila</p>
+<input type="text" spellcheck="false"><br></li>
+<li><p>fade jede alle ölig hilf lila fade jede alle ölig hilf lila</p>
+<input type="text" spellcheck="false"><br></li>
+<li><p>feil feil seid seid heil heil lief lief dies dies lieh lieh</p>
+<input type="text" spellcheck="false"><br></li>
+<li><p>feil lief seid dies heil lieh feil lief seid dies heil lieh</p>
+<input type="text" spellcheck="false"><br></li>
+<li><p>jedes jedes fasse fasse klage klage leise leise liege liege</p>
+<input type="text" spellcheck="false"><br></li>
+<li><p>jedes fasse klage leise liege jedes fasse klage leise liege</p>
+<input type="text" spellcheck="false"><br></li>
+<li><p>da ja als falls es des da das lege alle alles sei sie siehe</p>
+<input type="text" spellcheck="false"><br></li>
+<li><p>die dies diese dieses je jede jedes sei seid seidig seidige</p>
+<input type="text" spellcheck="false"><br></li>
+<li><p>fege sage gehe jage lege klage feige gedieh gefiel gesellig</p>
+<input type="text" spellcheck="false"><br></li>
+<li><p>selig eilig eisig seifig heilig leidig hiesig seifig felsig</p>
+<input type="text" spellcheck="false"><br></li>
+<div class="note"> Das Komma <span class='boxed'>,</span> - rechter Mittelfinger</div><li><p>seid leise, sie las das, es gefiel, sei fidel, da lief sie,</p>
+<input type="text" spellcheck="false"><br></li>
+<li><p>lies alles, das sah sie, fasse das, löse dies, lasse es da,</p>
+<input type="text" spellcheck="false"><br></li>
+<li><p>gehe eilig, lies das da, es gedieh, seid edel, sie lieh es,</p>
+<input type="text" spellcheck="false"><br></li>
+</ol>
 </body>
 </html>

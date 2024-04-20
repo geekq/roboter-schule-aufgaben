@@ -10,21 +10,31 @@
         color: black;
     }
     p {
-        /*color: navy;*/
-        margin: 20px;
+        margin-left: 7px;
+        margin-bottom: 3px;
         width: 100%;
     }
     input[type="text"] {
         width: 100%;
         padding: 8px;
         box-sizing: border-box;
-        margin-bottom: 20px;
-        margin-left: 14px;
+        margin-bottom: 10px;
+        margin-left: 0px;
     }
-    p, input[type="text"] {
+    p, input[type="text"], div.note .boxed {
         font-size: 24px;
         font-weight: bold;
         font-family: 'DejaVu Sans Mono', 'Courier New', Courier, monospace;
+    }
+    div.note {
+        color: purple;
+        font-size: 30px;
+        margin-top: 20px;
+    }
+    div.note .boxed {
+        border: 2px solid purple;
+        padding-left: 5px;
+        padding-right: 5px;
     }
 </style>
 
@@ -57,36 +67,66 @@ document.addEventListener('DOMContentLoaded', function() {
 
 <a href="../typing.html">alle Aufgaben</a>
 <h1>aufgabe12</h1>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/QWERTZ-10Finger-Layout.svg/2560px-QWERTZ-10Finger-Layout.svg.png" alt="Tasten Zuordnung" width="100%">
 <ol>
 <li><p>dcd k,k dec ki, cwt lk, cht sch ck, cre öch fec cel ei; ich</p>
-<input type="text" spellcheck="false"><br></li><li><p>ab an in bei uns aber ohne haben wenn selbst nehmen bringen</p>
-<input type="text" spellcheck="false"><br></li><li><p>sich nicht nach durch noch schon machen solche, ich spreche</p>
-<input type="text" spellcheck="false"><br></li><li><p>fsf sfs fvf sxs fsx dsx asx xsf xsd xsa xfs xds xas sfx sdx</p>
-<input type="text" spellcheck="false"><br></li><li><p>wsx xsd wxq xav xer axf exc bax xum xil uxk oxo höx nix jux</p>
-<input type="text" spellcheck="false"><br></li><li><p>mixt mixt mixt mixt mixt mixt boxt boxt boxt boxt boxt boxt</p>
-<input type="text" spellcheck="false"><br></li><li><p>mixt boxt mixt boxt mixt boxt mixt boxt mixt boxt mixt boxt</p>
-<input type="text" spellcheck="false"><br></li><li><p>taxieren taxierbar, hexenhaft verhexen, textlich textieren,</p>
-<input type="text" spellcheck="false"><br></li><li><p>fixieren fixierbar, mixen mixte gemixt, boxen boxte geboxt,</p>
-<input type="text" spellcheck="false"><br></li><li><p>gleich, desgl., dgl., vgl., östlich, östl., nördl., westl.,</p>
-<input type="text" spellcheck="false"><br></li><li><p>englisch, engl., chinesisch, chin., schriftlich, schriftl.,</p>
-<input type="text" spellcheck="false"><br></li><li><p>ex, exakt unexakt, extern, extra extravagant, extrem, exkl.</p>
-<input type="text" spellcheck="false"><br></li><li><p>kraxeln maximal, flexibel, ausgeixt, nixenhaft, luxuriöser,</p>
-<input type="text" spellcheck="false"><br></li><li><p>bzw., beziehungsweise, techn., technisch, inkl., inklusive,</p>
-<input type="text" spellcheck="false"><br></li><li><p>...gasse, ... könnte ihm helfen, wenn ..., sagte er und ...</p>
-<input type="text" spellcheck="false"><br></li><li><p>fehlerlos taxieren, sehr genau taxiert, bestimmt taxierbar,</p>
-<input type="text" spellcheck="false"><br></li><li><p>extra ausgefertigt, exakt ausgerechnet, extrem eingestellt,</p>
-<input type="text" spellcheck="false"><br></li><li><p>luxuriös ausgebaut, rechtzeitig gemixt, nicht gut getextet,</p>
-<input type="text" spellcheck="false"><br></li><li><p>ich konnte es nicht taxieren, es wurde wirklich gut gemixt,</p>
-<input type="text" spellcheck="false"><br></li><li><p>sehr bekannt bzw. befreundet, u. a. damit unzufrieden sein,</p>
-<input type="text" spellcheck="false"><br></li><li><p>das ist textlich einwandfrei, es war extrem gut bearbeitet,</p>
-<input type="text" spellcheck="false"><br></li><li><p>X, das X, die Saar, Format X. Der Punkt, der Doppelpunkt :.</p>
-<input type="text" spellcheck="false"><br></li><li><p>Xaver, Xanten, die Xerokopie. 1: Liter, t: Tonne, m: Meter.</p>
-<input type="text" spellcheck="false"><br></li><li><p>Xenon, das chemische Element. Römische Zahlzeichen I und X.</p>
-<input type="text" spellcheck="false"><br></li><li><p>Wir besuchen Xanten am Rhein. Heute platzte die Xenonlampe.</p>
-<input type="text" spellcheck="false"><br></li><li><p>Franz Xaver Gabelsberger ist der Vater unserer Kurzschrift.</p>
-<input type="text" spellcheck="false"><br></li><li><p>Das Haus, der Garten, der Teich: sie gehörten jenem Bauern.</p>
-<input type="text" spellcheck="false"><br></li><li><p>Anwendung: Zu jeder Mahlzeit ist eine Tablette einzunehmen.</p>
-<input type="text" spellcheck="false"><br></li><li><p>Eingedeutschte Fremdwörter: Bluse, Fassade, Likör, Telefon.</p>
-<input type="text" spellcheck="false"><br></li></ol>
+<input type="text" spellcheck="false"><br></li>
+<li><p>ab an in bei uns aber ohne haben wenn selbst nehmen bringen</p>
+<input type="text" spellcheck="false"><br></li>
+<li><p>sich nicht nach durch noch schon machen solche, ich spreche</p>
+<input type="text" spellcheck="false"><br></li>
+<li><p>fsf sfs fvf sxs fsx dsx asx xsf xsd xsa xfs xds xas sfx sdx</p>
+<input type="text" spellcheck="false"><br></li>
+<li><p>wsx xsd wxq xav xer axf exc bax xum xil uxk oxo höx nix jux</p>
+<input type="text" spellcheck="false"><br></li>
+<li><p>mixt mixt mixt mixt mixt mixt boxt boxt boxt boxt boxt boxt</p>
+<input type="text" spellcheck="false"><br></li>
+<li><p>mixt boxt mixt boxt mixt boxt mixt boxt mixt boxt mixt boxt</p>
+<input type="text" spellcheck="false"><br></li>
+<li><p>taxieren taxierbar, hexenhaft verhexen, textlich textieren,</p>
+<input type="text" spellcheck="false"><br></li>
+<li><p>fixieren fixierbar, mixen mixte gemixt, boxen boxte geboxt,</p>
+<input type="text" spellcheck="false"><br></li>
+<li><p>gleich, desgl., dgl., vgl., östlich, östl., nördl., westl.,</p>
+<input type="text" spellcheck="false"><br></li>
+<li><p>englisch, engl., chinesisch, chin., schriftlich, schriftl.,</p>
+<input type="text" spellcheck="false"><br></li>
+<li><p>ex, exakt unexakt, extern, extra extravagant, extrem, exkl.</p>
+<input type="text" spellcheck="false"><br></li>
+<li><p>kraxeln maximal, flexibel, ausgeixt, nixenhaft, luxuriöser,</p>
+<input type="text" spellcheck="false"><br></li>
+<li><p>bzw., beziehungsweise, techn., technisch, inkl., inklusive,</p>
+<input type="text" spellcheck="false"><br></li>
+<li><p>...gasse, ... könnte ihm helfen, wenn ..., sagte er und ...</p>
+<input type="text" spellcheck="false"><br></li>
+<li><p>fehlerlos taxieren, sehr genau taxiert, bestimmt taxierbar,</p>
+<input type="text" spellcheck="false"><br></li>
+<li><p>extra ausgefertigt, exakt ausgerechnet, extrem eingestellt,</p>
+<input type="text" spellcheck="false"><br></li>
+<li><p>luxuriös ausgebaut, rechtzeitig gemixt, nicht gut getextet,</p>
+<input type="text" spellcheck="false"><br></li>
+<li><p>ich konnte es nicht taxieren, es wurde wirklich gut gemixt,</p>
+<input type="text" spellcheck="false"><br></li>
+<li><p>sehr bekannt bzw. befreundet, u. a. damit unzufrieden sein,</p>
+<input type="text" spellcheck="false"><br></li>
+<li><p>das ist textlich einwandfrei, es war extrem gut bearbeitet,</p>
+<input type="text" spellcheck="false"><br></li>
+<li><p>X, das X, die Saar, Format X. Der Punkt, der Doppelpunkt :.</p>
+<input type="text" spellcheck="false"><br></li>
+<li><p>Xaver, Xanten, die Xerokopie. 1: Liter, t: Tonne, m: Meter.</p>
+<input type="text" spellcheck="false"><br></li>
+<li><p>Xenon, das chemische Element. Römische Zahlzeichen I und X.</p>
+<input type="text" spellcheck="false"><br></li>
+<li><p>Wir besuchen Xanten am Rhein. Heute platzte die Xenonlampe.</p>
+<input type="text" spellcheck="false"><br></li>
+<li><p>Franz Xaver Gabelsberger ist der Vater unserer Kurzschrift.</p>
+<input type="text" spellcheck="false"><br></li>
+<li><p>Das Haus, der Garten, der Teich: sie gehörten jenem Bauern.</p>
+<input type="text" spellcheck="false"><br></li>
+<li><p>Anwendung: Zu jeder Mahlzeit ist eine Tablette einzunehmen.</p>
+<input type="text" spellcheck="false"><br></li>
+<li><p>Eingedeutschte Fremdwörter: Bluse, Fassade, Likör, Telefon.</p>
+<input type="text" spellcheck="false"><br></li>
+</ol>
 </body>
 </html>

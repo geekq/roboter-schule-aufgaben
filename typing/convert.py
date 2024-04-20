@@ -22,21 +22,31 @@ def generate_html_from_text_file(name):
         color: black;
     }
     p {
-        /*color: navy;*/
-        margin: 20px;
+        margin-left: 7px;
+        margin-bottom: 3px;
         width: 100%;
     }
     input[type="text"] {
         width: 100%;
         padding: 8px;
         box-sizing: border-box;
-        margin-bottom: 20px;
-        margin-left: 14px;
+        margin-bottom: 10px;
+        margin-left: 0px;
     }
-    p, input[type="text"] {
+    p, input[type="text"], div.note .boxed {
         font-size: 24px;
         font-weight: bold;
         font-family: 'DejaVu Sans Mono', 'Courier New', Courier, monospace;
+    }
+    div.note {
+        color: purple;
+        font-size: 30px;
+        margin-top: 20px;
+    }
+    div.note .boxed {
+        border: 2px solid purple;
+        padding-left: 5px;
+        padding-right: 5px;
     }
 </style>
 
@@ -70,16 +80,20 @@ document.addEventListener('DOMContentLoaded', function() {
 f"""
 <a href="../typing.html">alle Aufgaben</a>
 <h1>{name}</h1>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/QWERTZ-10Finger-Layout.svg/2560px-QWERTZ-10Finger-Layout.svg.png" alt="Tasten Zuordnung" width="100%">
 <ol>
 """)
 
-    # Process each line in the file
     for line in lines:
         # Strip whitespace from the beginning and end of the line
         clean_line = line.strip()
         if clean_line:  # Check if line is not empty
             # Add paragraph and input field for each non-empty line
-            html_content += f"""<li><p>{clean_line}</p>\n<input type="text" spellcheck="false"><br></li>"""
+            if clean_line.startswith('#'):
+                s = clean_line[1:].replace("'", "</span>").replace("`", "<span class='boxed'>")
+                html_content += f"""<div class="note">{s}</div>"""
+            else:
+                html_content += f"""<li><p>{clean_line}</p>\n<input type="text" spellcheck="false"><br></li>\n"""
 
     html_content += '</ol>\n</body>\n</html>'
 
