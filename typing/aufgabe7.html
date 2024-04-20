@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>aufgabe7</title>
+<style>
+    body {
+        width: 80%;
+        color: black;
+    }
+    p {
+        /*color: navy;*/
+        margin: 20px;
+        width: 100%;
+    }
+    input[type="text"] {
+        width: 100%;
+        padding: 8px;
+        box-sizing: border-box;
+        margin-bottom: 20px;
+        margin-left: 14px;
+    }
+    p, input[type="text"] {
+        font-size: 24px;
+        font-weight: bold;
+        font-family: 'DejaVu Sans Mono', 'Courier New', Courier, monospace;
+    }
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    console.log('Page fully loaded');
+    var inputs = document.querySelectorAll('input[type="text"]');
+    if (inputs.length > 0) {
+        inputs[0].focus(); // Focus on the first input field
+    }
+});
+
+    // Add any additional JavaScript you want to run at start here
+    document.addEventListener('DOMContentLoaded', function () {
+        const inputs = document.querySelectorAll('input');
+        inputs.forEach((input, index) => {
+            input.addEventListener('keyup', function(event) {
+                if (event.key === 'Enter') {
+                    event.preventDefault(); // Prevent the default form submit on Enter key
+                    if (index < inputs.length - 1) { // Check if it's not the last input field
+                        inputs[index + 1].focus(); // Move focus to the next input field
+                    }
+                }
+            });
+        });
+    });
+</script>
+</head>
+<body>
+
+<a href="../typing.html">alle Aufgaben</a>
+<h1>aufgabe7</h1>
+<ol>
+<li><p>Fö Fö Fö F F F Ja Ja Ja J J J Dö D Sö S Aö A Ka K La L Öa Ö</p>
+<input type="text" spellcheck="false"><br></li><li><p>Fall Fall Fall Fall Kalk Kalk Kalk Kalk Fall Kalk Fall Kalk</p>
+<input type="text" spellcheck="false"><br></li><li><p>Fall Jaffa Kalk Kalla Kassa Saal Skala Alaska All Aal As Öl</p>
+<input type="text" spellcheck="false"><br></li><li><p>Fö Fö Fö Gö Gö Gö Fö Gö Fö Gö Ja Ja Ja Ha Ha Ha Ja Ha Ja Ha</p>
+<input type="text" spellcheck="false"><br></li><li><p>Fö Gö Dö Sö Aö F G F Gas Glas Ja Ha Ka La Öa H J Jak Haff</p>
+<input type="text" spellcheck="false"><br></li><li><p>Glas Glas Glas Glas Hals Hals Hals Hals Glas Hals Glas Hals</p>
+<input type="text" spellcheck="false"><br></li><li><p>Fall Gala Jagd Haff Fall Hall Jaffa Falk Gas Gasöl Jagdglas</p>
+<input type="text" spellcheck="false"><br></li><li><p>D, das D, E, das E, die Elle, K, das K, I, das I, die Idee,</p>
+<input type="text" spellcheck="false"><br></li><li><p>Eis, Elfe, Elle, Elli, Essig, Ida, Igel, Igelklee, die Ill,</p>
+<input type="text" spellcheck="false"><br></li><li><p>Eis, das Eis, die Eisdiele, das Ideal, Idealfall, die Idee,</p>
+<input type="text" spellcheck="false"><br></li><li><p>Elsas heikle Idee, Ilses heile Sessel, Elisas helles Kleid,</p>
+<input type="text" spellcheck="false"><br></li><li><p>F, das F, R, das R, die Ruhe, J, das J, U, das U, das Ufer,</p>
+<input type="text" spellcheck="false"><br></li><li><p>Röhre, Riese, Regler, Reiher, Ufer, die Uhr, der Uhu, Ulla,</p>
+<input type="text" spellcheck="false"><br></li><li><p>Radius des Kreises, das Ufer der Ruhr, diese Feder der Uhr,</p>
+<input type="text" spellcheck="false"><br></li><li><p>Fehler des Siegers, Ausflug der Klasse, der ruhige Gehilfe,</p>
+<input type="text" spellcheck="false"><br></li><li><p>W, das W, der Sieg, die Wahl. O, das O, die Lage, die Oase.</p>
+<input type="text" spellcheck="false"><br></li><li><p>Wille, Wolke, Waffel, Wasser. Oskar, Order, Orgel, das Ohr.</p>
+<input type="text" spellcheck="false"><br></li><li><p>Ihre Wahl fiel auf die Orgel. Dieses Wollkleid gefiel Olga.</p>
+<input type="text" spellcheck="false"><br></li><li><p>Die Dohle flog auf die Weide. Oswald fuhr wieder erfolglos.</p>
+<input type="text" spellcheck="false"><br></li><li><p>Q, das Q, das Auge, die Qual. P, das P, die Öse, die Pappe.</p>
+<input type="text" spellcheck="false"><br></li><li><p>Quark, Quirl, Quader, Quelle. Perle, Pappe, Papier, Pfeife.</p>
+<input type="text" spellcheck="false"><br></li><li><p>Der Quirl fiel auf die Diele. Der Fahrer lud die Pappe auf.</p>
+<input type="text" spellcheck="false"><br></li><li><p>Das Quellwasser wurde klarer. So war der Preis des Papiers.</p>
+<input type="text" spellcheck="false"><br></li></ol>
+</body>
+</html>

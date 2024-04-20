@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>aufgabe21</title>
+<style>
+    body {
+        width: 80%;
+        color: black;
+    }
+    p {
+        /*color: navy;*/
+        margin: 20px;
+        width: 100%;
+    }
+    input[type="text"] {
+        width: 100%;
+        padding: 8px;
+        box-sizing: border-box;
+        margin-bottom: 20px;
+        margin-left: 14px;
+    }
+    p, input[type="text"] {
+        font-size: 24px;
+        font-weight: bold;
+        font-family: 'DejaVu Sans Mono', 'Courier New', Courier, monospace;
+    }
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    console.log('Page fully loaded');
+    var inputs = document.querySelectorAll('input[type="text"]');
+    if (inputs.length > 0) {
+        inputs[0].focus(); // Focus on the first input field
+    }
+});
+
+    // Add any additional JavaScript you want to run at start here
+    document.addEventListener('DOMContentLoaded', function () {
+        const inputs = document.querySelectorAll('input');
+        inputs.forEach((input, index) => {
+            input.addEventListener('keyup', function(event) {
+                if (event.key === 'Enter') {
+                    event.preventDefault(); // Prevent the default form submit on Enter key
+                    if (index < inputs.length - 1) { // Check if it's not the last input field
+                        inputs[index + 1].focus(); // Move focus to the next input field
+                    }
+                }
+            });
+        });
+    });
+</script>
+</head>
+<body>
+
+<a href="../typing.html">alle Aufgaben</a>
+<h1>aufgabe21</h1>
+<ol>
+<li><p>abc def ghi jkl mno pqr stu vwx yzö äüß dec ki, dce k,i dkd</p>
+<input type="text" spellcheck="false"><br></li><li><p>der derer den niedlich bedeckt echt gerecht kindlich strikt Anschl</p>
+<input type="text" spellcheck="false"><br></li><li><p>Die Parteien haben sich nach langen Verhandlungen geeinigt. 62</p>
+<input type="text" spellcheck="false"><br></li><li><p>ddd ded dcd de4 d4d 4d4 d 4</p>
+<input type="text" spellcheck="false"><br></li><li><p>4 Deckel, 4 Echsen, 4 Chöre</p>
+<input type="text" spellcheck="false"><br></li><li><p>4 Fälle, 4 Steine, 4 Achter</p>
+<input type="text" spellcheck="false"><br></li><li><p>Stand 4, 4. Versuch, 4eckig</p>
+<input type="text" spellcheck="false"><br></li><li><p>kkk kik k,k ki9 k9k 9k9 k 9</p>
+<input type="text" spellcheck="false"><br></li><li><p>9 Kisten, 9 Kissen, 9 Imker</p>
+<input type="text" spellcheck="false"><br></li><li><p>9 Juwelen, 9 Läufer, 9 Öfen</p>
+<input type="text" spellcheck="false"><br></li><li><p>Block 9, 9. Oktober, 9malig</p>
+<input type="text" spellcheck="false"><br></li><li><p>4, 4 dm, 4 Dezimeter, 4 Einsätze, 4 Chemiker, 4fach, Teil 4</p>
+<input type="text" spellcheck="false"><br></li><li><p>4. Deck, 4. Ecke, 4. Cellist, 4. Fehler, 4. Aufgabe, 4. Tor</p>
+<input type="text" spellcheck="false"><br></li><li><p>9, 9 km, 9 Kilometer, 9. Kilometer, 9malig, Zeile 9, Satz 9</p>
+<input type="text" spellcheck="false"><br></li><li><p>Am Ufer 9, Bergstraße 9, Ulmer Str. 9, Ernst-August-Platz 9</p>
+<input type="text" spellcheck="false"><br></li><li><p>in 4 Tagen, in 9 Räumen, alle 4 Minuten, Zeile 9, Zimmer 49</p>
+<input type="text" spellcheck="false"><br></li><li><p>am 4. Januar, im 9. Jahr, in der 4. Runde, auf der 9. Seite</p>
+<input type="text" spellcheck="false"><br></li><li><p>A4-Format, 9-Zimmer-Wohnungen, 4-Zylinder-Motor, 4-m-Sprung</p>
+<input type="text" spellcheck="false"><br></li><li><p>breit braun brauchen brennen gebraten verbreiten zerbrochen</p>
+<input type="text" spellcheck="false"><br></li><li><p>grau grob groß grell grasen greifen gratis grimmig grasgrün</p>
+<input type="text" spellcheck="false"><br></li><li><p>Als Besprechungstermin schlage ich den 4. bzw. 9. Juni vor.                                                                                        62</p>
+<input type="text" spellcheck="false"><br></li><li><p>Mein Angebot vermittelt Ihnen Anregungen für Ihren Einkauf. 63</p>
+<input type="text" spellcheck="false"><br></li><li><p>Das Anschlagen einer Schreibtaste in der Zifferntastenreihe 64</p>
+<input type="text" spellcheck="false"><br></li><li><p>setzt große Griffsicherheit voraus. Sie ist jedoch nur dann 126</p>
+<input type="text" spellcheck="false"><br></li><li><p>zu erreichen, wenn man sich beim Erarbeiten der Griffe alle 188</p>
+<input type="text" spellcheck="false"><br></li><li><p>notwendigen Arbeitsabläufe genau einprägt und wenn man beim 249</p>
+<input type="text" spellcheck="false"><br></li><li><p>Einüben zuverlässig greift und nicht ängstlich anschlägt.   308</p>
+<input type="text" spellcheck="false"><br></li><li><p>Beim Schreiben von Ziffern und Zeichen bleiben die Hände in sm</p>
+<input type="text" spellcheck="false"><br></li><li><p>der Grundstellung. Nur der anschlagende Finger verläßt sie, 436</p>
+<input type="text" spellcheck="false"><br></li><li><p>er greift auf direktem Weg über die obere Buchstabentasten- 499</p>
+<input type="text" spellcheck="false"><br></li><li><p>reihe in die Zifferntastenreihe. Bei Bedarf wird zur besse- 562</p>
+<input type="text" spellcheck="false"><br></li><li><p>ren Griffausführung der Unterarm etwas nach vorn geschoben. 624</p>
+<input type="text" spellcheck="false"><br></li><li><p>Ein falscher Buchstabe wirkt sich kaum sinnentstellend aus. 686</p>
+<input type="text" spellcheck="false"><br></li><li><p>Anders ist das bei den Zahlen. Jede Ziffer ist ein Wort für 751</p>
+<input type="text" spellcheck="false"><br></li><li><p>sich, jede hat ihren Grund- und ihren Stellenwert. So deckt 814</p>
+<input type="text" spellcheck="false"><br></li><li><p>sich die Schreibfolge häufig nicht mit der Sprechfolge. Man 876</p>
+<input type="text" spellcheck="false"><br></li><li><p>spricht vierundneunzig, schreibt aber nacheinander 9 und 4. 935</p>
+<input type="text" spellcheck="false"><br></li></ol>
+</body>
+</html>

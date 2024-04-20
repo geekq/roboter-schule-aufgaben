@@ -86,4 +86,11 @@ f"""
     with open(output_filename, 'w', encoding='utf-8') as output_file:
         output_file.write(html_content)
 
-generate_html_from_text_file(sys.argv[1]) # e.g. 'aufgabe1'
+if sys.argv[1] == 'all':
+    lessons = list(range(1,14+1)) + list(range(21,22+1))
+    for i in lessons:
+        generate_html_from_text_file(f'aufgabe{i}')
+        print(f"* [Aufgabe {i}](typing/aufgabe{i}.html)")
+else:
+    generate_html_from_text_file(sys.argv[1]) # e.g. 'aufgabe1'
+

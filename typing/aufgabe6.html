@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>aufgabe6</title>
+<style>
+    body {
+        width: 80%;
+        color: black;
+    }
+    p {
+        /*color: navy;*/
+        margin: 20px;
+        width: 100%;
+    }
+    input[type="text"] {
+        width: 100%;
+        padding: 8px;
+        box-sizing: border-box;
+        margin-bottom: 20px;
+        margin-left: 14px;
+    }
+    p, input[type="text"] {
+        font-size: 24px;
+        font-weight: bold;
+        font-family: 'DejaVu Sans Mono', 'Courier New', Courier, monospace;
+    }
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    console.log('Page fully loaded');
+    var inputs = document.querySelectorAll('input[type="text"]');
+    if (inputs.length > 0) {
+        inputs[0].focus(); // Focus on the first input field
+    }
+});
+
+    // Add any additional JavaScript you want to run at start here
+    document.addEventListener('DOMContentLoaded', function () {
+        const inputs = document.querySelectorAll('input');
+        inputs.forEach((input, index) => {
+            input.addEventListener('keyup', function(event) {
+                if (event.key === 'Enter') {
+                    event.preventDefault(); // Prevent the default form submit on Enter key
+                    if (index < inputs.length - 1) { // Check if it's not the last input field
+                        inputs[index + 1].focus(); // Move focus to the next input field
+                    }
+                }
+            });
+        });
+    });
+</script>
+</head>
+<body>
+
+<a href="../typing.html">alle Aufgaben</a>
+<h1>aufgabe6</h1>
+<ol>
+<li><p>frf sws juj lol was olk wes kio wag ohl ros dog fou wie los</p>
+<input type="text" spellcheck="false"><br></li><li><p>je es des dies diese eurer darauf ruhiger allerlei geduldig</p>
+<input type="text" spellcheck="false"><br></li><li><p>war los wird oder weil wohl weise, das war u. a. wieder so,</p>
+<input type="text" spellcheck="false"><br></li><li><p>faf afr faq qaf aqa qaq a q</p>
+<input type="text" spellcheck="false"><br></li><li><p>qaq aqa asq awq seq kqu liq</p>
+<input type="text" spellcheck="false"><br></li><li><p>fq dq sq aq qg rq eq wq aqf</p>
+<input type="text" spellcheck="false"><br></li><li><p>kq lq hq uq qu iq qi oq qoq</p>
+<input type="text" spellcheck="false"><br></li><li><p>qua qua que que qui qui quo</p>
+<input type="text" spellcheck="false"><br></li><li><p>qua qua qua quak quak quake</p>
+<input type="text" spellcheck="false"><br></li><li><p>jöj öju jöp pöj öpö pöp ö p</p>
+<input type="text" spellcheck="false"><br></li><li><p>pöp öpö öop pik oph psi pfi</p>
+<input type="text" spellcheck="false"><br></li><li><p>lp pö öp ph pu up pi ip pop</p>
+<input type="text" spellcheck="false"><br></li><li><p>pf ps sp pa ap pe ep pr rpr</p>
+<input type="text" spellcheck="false"><br></li><li><p>plö pul par pel pfe pra spa</p>
+<input type="text" spellcheck="false"><br></li><li><p>pro pro pro plus plus prall</p>
+<input type="text" spellcheck="false"><br></li><li><p>quak quak quak quer quer quer paar paar paar plus plus plus</p>
+<input type="text" spellcheck="false"><br></li><li><p>quak paar quer plus quak paar quer plus quak paar quer plus</p>
+<input type="text" spellcheck="false"><br></li><li><p>quasi quasi quoll quoll prall prall pries pries</p>
+<input type="text" spellcheck="false"><br></li><li><p>quasi prall quoll pries quasi prall quoll pries</p>
+<input type="text" spellcheck="false"><br></li><li><p>quak quer quasi quoll quirle quirlig</p>
+<input type="text" spellcheck="false"><br></li><li><p>paar plus prall pries pfeife pfiffig</p>
+<input type="text" spellcheck="false"><br></li><li><p>quadriere quallig quarkig quer querköpfig quellklar liquide</p>
+<input type="text" spellcheck="false"><br></li><li><p>paarweise perlgrau superklug kopflos spielfrei doppelreihig</p>
+<input type="text" spellcheck="false"><br></li><li><p>ewig so querköpfig, daher sehr pfiffig, wohl gerade liquid,</p>
+<input type="text" spellcheck="false"><br></li><li><p>fuhr doppelgleisig, sie pfiff so leise, es quoll da heraus,</p>
+<input type="text" spellcheck="false"><br></li><li><p>sie war quasi frei, war wieder kopflos, wurde sehr quirlig,</p>
+<input type="text" spellcheck="false"><br></li><li><p>ss aa ll af da as kö lö la ka fö dö sö ga hö gö ha gh hg</p>
+<input type="text" spellcheck="false"><br></li><li><p>de ki fr ju sw lo aq öp fe se ji li ge hi we oi qu pr ph sp</p>
+<input type="text" spellcheck="false"><br></li><li><p>der jeder die diese wie wieder als also wir wird auf darauf</p>
+<input type="text" spellcheck="false"><br></li><li><p>das sie des er es so aus war was oder ihr da sehr hier alle</p>
+<input type="text" spellcheck="false"><br></li><li><p>du wo sei ja wurde wohl weil will soll dir gar wer drei her</p>
+<input type="text" spellcheck="false"><br></li><li><p>er fuhr waghalsiger als alle, dieses wurde ihr wieder klar,</p>
+<input type="text" spellcheck="false"><br></li><li><p>l., rd., dgl., lfd., pp. oder ppa., alles war wieder o. k.,</p>
+<input type="text" spellcheck="false"><br></li><li><p>es wird sogar wieder quellklar, war also sowieso spielfrei,</p>
+<input type="text" spellcheck="false"><br></li></ol>
+</body>
+</html>
