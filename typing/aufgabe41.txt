@@ -1,0 +1,8 @@
+# Die Klammern `(' `)' und Processing Programm
+
+4) 5) 9) 4) 9) 5) 4) 5) 9) 4) 9) 5)
+(4) (5) (4) (5) (4) (5) (4) (5) (4) (5)
+
+setup() fill(55) background(48) run()
+no_stroke() fill(99) setup()
+random_uniform(45)

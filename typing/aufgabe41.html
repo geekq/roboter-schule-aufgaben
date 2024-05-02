@@ -1,21 +1,9 @@
-#!/usr/bin/env python3
-import sys
-def generate_html_from_text_file(name):
-    input_filename = f"{name}.txt"
-    output_filename = f"{name}.html"
-    # Read lines from the text file
-    with open(input_filename, 'r', encoding='utf-8') as file:
-        lines = file.readlines()
 
-    # Start the HTML content
-    html_content = ("""
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-"""
-    f"<title>{name}</title>"
-    """
+<title>aufgabe41</title>
 <style>
     body {
         width: 80%;
@@ -76,35 +64,21 @@ document.addEventListener('DOMContentLoaded', function() {
 </script>
 </head>
 <body>
-"""
-f"""
+
 <a href="../typing.html">alle Aufgaben</a>
-<h1>{name}</h1>
+<h1>aufgabe41</h1>
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/QWERTZ-10Finger-Layout.svg/2560px-QWERTZ-10Finger-Layout.svg.png" alt="Tasten Zuordnung" width="100%">
 <ol>
-""")
-
-    for line in lines:
-        # Strip whitespace from the beginning and end of the line
-        clean_line = line.strip()
-        if clean_line:  # Check if line is not empty
-            # Add paragraph and input field for each non-empty line
-            if clean_line.startswith('#'):
-                s = clean_line[1:].replace("'", "</span>").replace("`", "<span class='boxed'>")
-                html_content += f"""<div class="note">{s}</div>"""
-            else:
-                html_content += f"""<li><p>{clean_line}</p>\n<input type="text" spellcheck="false"><br></li>\n"""
-
-    html_content += '</ol>\n</body>\n</html>'
-
-    with open(output_filename, 'w', encoding='utf-8') as output_file:
-        output_file.write(html_content)
-
-if sys.argv[1] == 'all':
-    lessons = list(range(1, 14+1)) + list(range(21, 22+1)) + list(range(41, 41+1))
-    for i in lessons:
-        generate_html_from_text_file(f'aufgabe{i}')
-        print(f"* [Aufgabe {i}](typing/aufgabe{i}.html)")
-else:
-    generate_html_from_text_file(sys.argv[1]) # e.g. 'aufgabe1'
-
+<div class="note"> Die Klammern <span class='boxed'>(</span> <span class='boxed'>)</span> und Processing Programm</div><li><p>4) 5) 9) 4) 9) 5) 4) 5) 9) 4) 9) 5)</p>
+<input type="text" spellcheck="false"><br></li>
+<li><p>(4) (5) (4) (5) (4) (5) (4) (5) (4) (5)</p>
+<input type="text" spellcheck="false"><br></li>
+<li><p>setup() fill(55) background(48) run()</p>
+<input type="text" spellcheck="false"><br></li>
+<li><p>no_stroke() fill(99) setup()</p>
+<input type="text" spellcheck="false"><br></li>
+<li><p>random_uniform(45)</p>
+<input type="text" spellcheck="false"><br></li>
+</ol>
+</body>
+</html>
