@@ -29,7 +29,11 @@
 [scratch](scratch.md)
 
 
-## Processing
+## Python + Processing
 
-[processing](processing.md)
+Heute 17:15
+
+1. Tipp-Übungungen
+2. Programmieren in Python probieren [python + processing](python-processing.md)
+3. Aufgaben aus dem Wettbewerb gemeinsam rechnen
 

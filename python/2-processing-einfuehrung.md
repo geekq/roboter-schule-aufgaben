@@ -1,8 +1,8 @@
-= Processing
+# Processing
 
 Starte `thonny Editor`, füge Folgendes ein (Ctrl+C, Ctrl+V), drücke F5 zum Ausführen
 
-== Rechtecke
+## Rechtecke
 
 ```
 from p5 import *
@@ -22,7 +22,7 @@ def draw():
 run()
 ```
 
-== Kreise
+## Kreise
 
 ```
 from p5 import *
