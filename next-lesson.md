@@ -34,6 +34,9 @@
 Heute 17:15
 
 1. Tipp-Übungungen
-2. Programmieren in Python probieren [python + processing](python-processing.md)
+2. Programmieren in Python probieren [Zahlen raten etc.](python/1-zahl-raten.md)
 3. Aufgaben aus dem Wettbewerb gemeinsam rechnen
+4. Visuelle Kunst mit Python+Processing [processing](python/2-processing-einfuehrung.md)
+
+[Alle python+processing Themen](python-processing.md)
 
