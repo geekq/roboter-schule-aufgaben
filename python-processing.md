@@ -6,4 +6,5 @@ Ctrl+V), drücke F5 zum Ausführen.
 
 1. [Zahl raten](python/1-zahl-raten.html)
 2. [Farbige Rechtecke malen](python/2-processing-einfuehrung.md)
+3. [Rechtecke als Mausspur](python/3-processing-squares.md)
 
