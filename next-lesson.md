@@ -1,3 +1,6 @@
+# Heute
+
+Links für den heutigen Unterricht
 
 ## Minecraft Welt
 
@@ -28,7 +31,7 @@
 
 * [scratch](scratch.md)
 * [Farbwähler](https://redketchup.io/color-picker)
- <img alt='Color picker' src='https://upload.wikimedia.org/wikipedia/de/2/28/Nogray_color_picker.jpg' height='60'>
+ <img alt='Color picker' src='https://upload.wikimedia.org/wikipedia/de/2/28/Nogray_color_picker.jpg' height='80'>
 
 
 ## Python + Processing
