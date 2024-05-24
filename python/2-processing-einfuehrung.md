@@ -2,7 +2,7 @@
 
 Starte `thonny Editor`, füge Folgendes ein (Ctrl+C, Ctrl+V), drücke F5 zum Ausführen
 
-## Rechtecke
+## Ein Paar Rechtecke
 
 ```
 from p5 import *
@@ -21,6 +21,33 @@ def draw():
 
 run()
 ```
+
+
+## Maus produziert Rechtecke
+
+```
+from p5 import *
+def setup():
+    size(600, 600)
+    rect_mode(CENTER)
+
+def draw():
+    square(mouse_x, mouse_y, 10)
+
+def mouse_clicked():
+    fill(random_uniform(255), random_uniform(255), random_uniform(255))
+
+run()
+```
+
+`fill(...` hat 3 Parameter, für rot, grün und blau, jeweils eine Zahl
+von 0 bis maximal 255. Statt komplett zufällig ('random'), versuche das
+Programm zu verändern um:
+
+* nur verschiedene Blau-Farbtöne zu nutzen
+* nur pink farbtöne zu nutzen. Frage: aus welchen Farbkomponenten
+  (Kanälen) besteht pink?
+
 
 ## Kreise
 
