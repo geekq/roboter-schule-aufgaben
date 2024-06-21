@@ -1,6 +1,8 @@
 # Processing
 
-Starte `thonny Editor`, füge Folgendes ein (Ctrl+C, Ctrl+V), drücke F5 zum Ausführen
+Starte `thonny Editor`, füge Folgendes ein (Ctrl+C, Ctrl+V) oden noch
+besser - tippe das Programm ab und überlege, was jede Anweisung bedeuten
+könnte. Drücke dann F5 zum Ausführen
 
 ## Ein Paar Rechtecke
 
